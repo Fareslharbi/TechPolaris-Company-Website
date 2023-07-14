@@ -13,7 +13,11 @@ const website = () => {
     <Router>
       <div className="main_app">
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route
+            exact
+            path="/TechPolaris-Company-Website"
+            element={<HomePage />}
+          />
           <Route path="/contact" element={<Contact />} />
           <Route path="/founder" element={<Founder />} />
           <Route path="/aboutUs" element={<AboutUs />} />
