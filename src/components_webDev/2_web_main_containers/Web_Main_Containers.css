@@ -1,0 +1,30 @@
+.webdev_flex{
+  align-items: center;
+}
+
+.webdev_flex img{
+  width: 20rem;
+  margin: 2rem;
+  border: 2px rgb(96, 84, 84) solid;
+  border-radius: 10px;
+}
+
+.child h1{
+  color: rgb(166, 65, 65);
+}
+
+
+.list_webdiv span{
+  font-weight: bold;
+}
+
+.list_webdiv li{
+  list-style:disc;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.row_webdev{
+  gap: 1rem;
+}
+

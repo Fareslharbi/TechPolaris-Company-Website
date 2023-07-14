@@ -1,0 +1,100 @@
+#tech_main_div {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #222529;
+  color: whitesmoke;
+}
+
+#tech_main_div a {
+  color: white;
+}
+
+.tech_footer_logo{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  perspective: 1000px;
+  display: inline-block;
+}
+.tech_footer_logo img{
+  width: 10rem;
+  transition: transform 0.3s;
+}
+.tech_footer_logo:hover img {
+  transform: translateZ(100px);
+  cursor: pointer;
+}
+
+.tech_permalinks{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+
+.tech_permalinks  a{
+  padding: 1rem;
+  transition: ease 500ms;
+}
+.tech_permalinks  a:hover{
+  border: solid 1px;
+  border-color: white;
+  border-radius: 10px;
+}
+.tech_footer__socials{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.tech_footer__socials a{
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.tech_footer__socials a:hover{
+  background: transparent;
+}
+
+.tech_footer__copyright{
+  margin-bottom: 4rem;
+}
+
+
+
+/* =============== Media Queries (Small Devices ) Phones ============== */
+@media screen and (max-width: 600px) {  
+  .tech_permalinks{
+      flex-direction: row;
+      justify-content:space-between;
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+  .tech_footer__socials{
+      margin-bottom: 2.6rem;
+      margin-left: 1rem;
+      
+  }
+  .tech_footer__copyright{
+    margin-bottom: 2.6rem;
+    margin-left: 1rem;
+    
+  }
+  .tech_footer__logo{
+    margin-left: 0.5rem;
+  }
+}
+
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

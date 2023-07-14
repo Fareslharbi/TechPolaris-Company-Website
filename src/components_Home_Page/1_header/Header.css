@@ -1,0 +1,46 @@
+.social i{
+  transition: all 0.5s ;
+}
+
+#nav_header{
+  height: 5rem;
+}
+.dropdown:hover .dropdown-menu,
+.dropdown .dropdown-menu:hover {
+  display:block;
+  width: 20rem;
+
+}
+
+.dropdown ul{
+  width: 20rem;
+}
+.container-fluid button{
+  background-color: transparent;
+}
+.container-fluid button img{
+  width: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid button {
+  perspective: 1000px;
+  display: inline-block;
+}
+.container-fluid button img {
+  transition: transform 0.3s;
+}
+
+.container-fluid button:hover img {
+  transform: translateZ(100px);
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+
+  #nav_header{
+    height: inherit;
+  }
+}

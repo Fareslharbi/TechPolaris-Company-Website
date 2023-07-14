@@ -1,0 +1,13 @@
+#aboutUs-container{
+  padding-top: 6rem;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid rgb(154, 148, 148);
+  transform: rotate(-90deg);
+
+}

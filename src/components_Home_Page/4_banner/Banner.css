@@ -1,0 +1,12 @@
+#banner_id{
+  font-size: 2.1rem;
+}
+
+
+@media (max-width: 576px) { /* Adjust the breakpoint as per your needs */
+  #banner_id{
+    font-size: large;
+    padding-bottom: 5rem;
+  }
+
+}

@@ -1,0 +1,13 @@
+@media (max-width: 576px) { /* Adjust the breakpoint as per your needs */
+  #banner_id{
+    width: 26rem;
+    padding-top: 5rem;
+    
+  }
+  .Web_Main_Banner{
+    padding-top: 0.8rem; 
+  }
+  .Web_Main_Banner img{
+    height: 10rem;
+  }
+}

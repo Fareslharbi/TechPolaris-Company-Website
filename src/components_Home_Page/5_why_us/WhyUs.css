@@ -1,0 +1,12 @@
+.WhyUsP{
+  font-size: larger;
+}
+
+@media (max-width: 576px) { /* Adjust the breakpoint as per your needs */
+  .WhyUsP{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+  }
+
+}

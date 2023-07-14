@@ -1,0 +1,52 @@
+#c2 .carousel-item {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.overlay-text1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  /* font-size: 24px; */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-item.active .overlay-text1 {
+  opacity: 1;
+}
+
+.overlay-text1 img{
+  width: 5rem;
+  border-radius:40px;
+}
+
+
+@media (max-width: 576px) { /* Adjust the breakpoint as per your needs */
+  #testimonial_bg_img {
+    max-width: auto; /* Define the desired width for small screens */
+    height: 27rem; /* Let the height adjust proportionally */
+  }
+
+  .overlay-text1 p{
+    font-size: small;
+  }
+
+  .overlay-text1 img{
+    margin-bottom: 10px;
+    width: 4rem;
+  }
+
+}

@@ -1,0 +1,15 @@
+#card-group-track{
+  width: 75rem;
+}
+
+@media (max-width: 576px) { /* Adjust the breakpoint as per your needs */
+  .img-fluid {
+    max-width: auto; /* Define the desired width for small screens */
+    height: 60rem; /* Let the height adjust proportionally */
+  }
+
+  #card-group-track{
+    width: 25rem;
+  }
+
+}
