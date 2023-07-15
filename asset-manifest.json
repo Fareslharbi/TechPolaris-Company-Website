@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TechPolaris-Company-Website/static/css/main.df766513.css",
-    "main.js": "/TechPolaris-Company-Website/static/js/main.87f7fd4e.js",
+    "main.css": "/TechPolaris-Company-Website/static/css/main.3a53e59a.css",
+    "main.js": "/TechPolaris-Company-Website/static/js/main.f33ed226.js",
     "static/media/logo-no-background-white.png": "/TechPolaris-Company-Website/static/media/logo-no-background-white.d0c953fb1301fd4ce2c7.png",
     "static/media/D69AB058-199E-405E-BF04-D0D9B59EC25A 3.png": "/TechPolaris-Company-Website/static/media/D69AB058-199E-405E-BF04-D0D9B59EC25A 3.cc9c5b73b27e78f4b49b.png",
     "static/media/Fa_price_monitoring_bot_f408e189-66e8-4444-84f2-6f3d74de7bc0 copy.png": "/TechPolaris-Company-Website/static/media/Fa_price_monitoring_bot_f408e189-66e8-4444-84f2-6f3d74de7bc0 copy.3f8e49951fe908dca978.png",
@@ -29,11 +29,11 @@
     "static/media/fr.png_480x360.webp": "/TechPolaris-Company-Website/static/media/fr.png_480x360.295d9a89a04a8c2544ed.webp",
     "static/media/APIs_480x360.webp": "/TechPolaris-Company-Website/static/media/APIs_480x360.9004912cd02de9291520.webp",
     "index.html": "/TechPolaris-Company-Website/index.html",
-    "main.df766513.css.map": "/TechPolaris-Company-Website/static/css/main.df766513.css.map",
-    "main.87f7fd4e.js.map": "/TechPolaris-Company-Website/static/js/main.87f7fd4e.js.map"
+    "main.3a53e59a.css.map": "/TechPolaris-Company-Website/static/css/main.3a53e59a.css.map",
+    "main.f33ed226.js.map": "/TechPolaris-Company-Website/static/js/main.f33ed226.js.map"
   },
   "entrypoints": [
-    "static/css/main.df766513.css",
-    "static/js/main.87f7fd4e.js"
+    "static/css/main.3a53e59a.css",
+    "static/js/main.f33ed226.js"
   ]
 }
