@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   const navigateHome = () => {
-    navigate("/");
+    navigate("/TechPolaris-Company-Website");
   };
 
   const navigateAboutUs = () => {

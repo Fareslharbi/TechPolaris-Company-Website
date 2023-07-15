@@ -12,7 +12,7 @@ const Founder = () => {
   const navigate = useNavigate();
 
   const navigateHome = () => {
-    navigate("/");
+    navigate("/TechPolaris-Company-Website");
   };
   return (
     <div className="techPolarisFounder">

@@ -1,10 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import { useNavigate } from "react-router-dom";
 import { FiTwitter } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import footer_logo from "./logo-no-background-white.png";
 const Footer = () => {
+  const navigate = useNavigate();
+
   const dict_departments = [
     { id: 1, department: "Web Development" },
     { id: 2, department: "Data Analytics" },
@@ -15,11 +18,14 @@ const Footer = () => {
     { id: 7, department: "Contact" },
     { id: 8, department: "Careers" },
   ];
+  const navigateHome = () => {
+    navigate("/TechPolaris-Company-Website");
+  };
   return (
     <div id="tech_main_div">
-      <a href="/#" className="tech_footer_logo">
+      <button onClick={navigateHome} className="btn tech_footer_logo">
         <img src={footer_logo} alt="footer_logo" />
-      </a>
+      </button>
       <ul className="tech_permalinks">
         {dict_departments.map(({ id, department }) => {
           return (
