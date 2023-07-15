@@ -1,73 +1,84 @@
-# Getting Started with Create React App
+# Techpolaris Full Stack Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Techpolaris Full Stack Website repository! This project is a full stack web application built using React, React Router, Bootstrap for the frontend, and Django for the backend.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+The project is divided into two main directories: `frontend` and `backend`.
 
-### `npm start`
+### Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The `frontend` directory contains the client-side code, which is built using React and React Router. It utilizes Bootstrap for styling and responsive design. This directory consists of the following key files and directories:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `public/`: Contains the static assets and HTML template for the application.
+- `src/`: Contains the main source code of the React application.
+  - `components/`: Holds reusable React components used throughout the application.
+  - `pages/`: Contains the main pages of the application, each implemented as a React component.
+  - `App.js`: The main entry point for the React application, where the routing and component structure are defined.
+  - `index.js`: The entry point of the React application, where the application is rendered to the DOM.
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The `backend` directory contains the server-side code, implemented using Django. It handles the API endpoints and interacts with the database. The key files and directories within the `backend` directory include:
 
-### `npm run build`
+- `core/`: Contains the core Django settings and configurations.
+- `api/`: Contains the Django app responsible for handling API endpoints.
+  - `models.py`: Defines the database models used by the application.
+  - `views.py`: Implements the API views and their corresponding logic.
+- `manage.py`: The Django management script for running the server and managing database migrations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get started with the Techpolaris Full Stack Website, follow the steps below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone this repository to your local machine.
 
-### `npm run eject`
+   ```shell
+   git clone https://github.com/your-username/techpolaris-fullstack.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies for the frontend. Navigate to the `frontend` directory and run the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```shell
+   cd frontend/
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the dependencies for the backend. Navigate to the `backend` directory and run the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```shell
+   cd ../backend/
+   pip install -r requirements.txt
+   ```
 
-## Learn More
+4. Start the frontend development server. In the `frontend` directory, run the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```shell
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Start the Django development server. In the `backend` directory, run the following command:
 
-### Code Splitting
+   ```shell
+   python manage.py runserver
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Access the Techpolaris Full Stack Website by opening your browser and navigating to `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you'd like to contribute to this project, please follow these guidelines:
 
-### Making a Progressive Web App
+1. Fork the repository on GitHub.
+2. Create a new branch with a descriptive name for your feature or bug fix.
+3. Implement your changes and ensure that they are working correctly.
+4. Commit your changes and push them to your forked repository.
+5. Open a pull request to the `main` branch of the original repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# TechPolaris-Company-Website
-# TechPolaris-Company-Website
-# Git-Branches-Tutorial
+For any inquiries or feedback regarding the Techpolaris Full Stack Website, please contact our team at realfareslharbi@gmail.com.
