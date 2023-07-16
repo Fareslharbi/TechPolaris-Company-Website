@@ -1,0 +1,29 @@
+.DA_whyDA_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 5rem;
+}
+
+.DA_whyDA_container_info{
+  display: flex;
+  gap: 8rem;
+}
+
+.DA_whyDA_container_info img{
+  width: 30rem;
+  margin: 5rem 0;
+}
+
+.DA_whyDA_container_info div{
+  padding-top: 3rem;
+}
+
+.DA_whyDA_container_info div ul li{
+  list-style:disc;
+}
+
+.DA_whyDA_container button{
+  padding: 0.8rem 4rem;
+}

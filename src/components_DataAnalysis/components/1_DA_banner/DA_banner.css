@@ -1,0 +1,21 @@
+.DA_banner_container{
+  display: flex;
+  padding: 7rem;
+  padding-left: 15rem;
+ 
+  background: #4091eb;
+  color: white;
+}
+.DA_banner_container img{
+  width: 30rem;
+}
+.DA_banner_info{
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.DA_banner_info button{
+  width: 10rem;
+}

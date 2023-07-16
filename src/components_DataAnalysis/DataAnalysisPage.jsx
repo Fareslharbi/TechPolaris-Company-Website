@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "../components_Home_Page/1_header/Header";
 import Footer from "../components_Home_Page/10_Footer/Footer";
+import DABanner from "./components/1_DA_banner/DA_banner";
+import DAWhyDA from "./components/2_DA_whyDA/DA_whyDA";
 const DataAnalysisPage = () => {
   return (
     <div>
       <Header />
-      <h1 className="mt-5 pt-5">DataAnalysisPage</h1>
-      <h1 className="mt-5 pt-5">DataAnalysisPage</h1>
-      <h1 className="mt-5 pt-5">DataAnalysisPage</h1>
+      <DABanner />
+      <DAWhyDA />
       <Footer />
     </div>
   );
