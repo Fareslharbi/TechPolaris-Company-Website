@@ -6,6 +6,11 @@
   padding: 3rem 5rem;
   text-align: center;
 }
+.DA_services_container p{
+  max-width: 65rem;
+  line-height: 1.7rem;
+  margin-top: 2rem;
+}
 
 .card-body .img-fluid img{
   width: 10rem;
