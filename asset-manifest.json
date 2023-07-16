@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TechPolaris-Company-Website/static/css/main.3a53e59a.css",
-    "main.js": "/TechPolaris-Company-Website/static/js/main.f33ed226.js",
+    "main.css": "/TechPolaris-Company-Website/static/css/main.f82ea98d.css",
+    "main.js": "/TechPolaris-Company-Website/static/js/main.5f338aaa.js",
     "static/media/logo-no-background-white.png": "/TechPolaris-Company-Website/static/media/logo-no-background-white.d0c953fb1301fd4ce2c7.png",
     "static/media/D69AB058-199E-405E-BF04-D0D9B59EC25A 3.png": "/TechPolaris-Company-Website/static/media/D69AB058-199E-405E-BF04-D0D9B59EC25A 3.cc9c5b73b27e78f4b49b.png",
     "static/media/Fa_price_monitoring_bot_f408e189-66e8-4444-84f2-6f3d74de7bc0 copy.png": "/TechPolaris-Company-Website/static/media/Fa_price_monitoring_bot_f408e189-66e8-4444-84f2-6f3d74de7bc0 copy.3f8e49951fe908dca978.png",
@@ -17,23 +17,30 @@
     "static/media/Fares_A_Resume.pdf": "/TechPolaris-Company-Website/static/media/Fares_A_Resume.5c4d4813c545ca726f4a.pdf",
     "static/media/User-Experience-Design.jpg": "/TechPolaris-Company-Website/static/media/User-Experience-Design.f9c383e1ce8725d6c02f.jpg",
     "static/media/Screenshot_2023-01-05_at_1.32.50_PM_480x360.png": "/TechPolaris-Company-Website/static/media/Screenshot_2023-01-05_at_1.32.50_PM_480x360.f56294b91b2d06d5d15d.png",
+    "static/media/Data-as-a-Service.svg.png": "/TechPolaris-Company-Website/static/media/Data-as-a-Service.svg.580e8ba71893ca5cb9c3.png",
     "static/media/Web-Security.jpg": "/TechPolaris-Company-Website/static/media/Web-Security.d14c1aebc94a3ec82887.jpg",
     "static/media/Website-Analytics.jpg": "/TechPolaris-Company-Website/static/media/Website-Analytics.f8cd657d1e54da8f052f.jpg",
+    "static/media/Data-Analytics-support-and-Evolution.svg.png": "/TechPolaris-Company-Website/static/media/Data-Analytics-support-and-Evolution.svg.552931d9a795f334d038.png",
+    "static/media/Data-Analytics-Consulting.svg.png": "/TechPolaris-Company-Website/static/media/Data-Analytics-Consulting.svg.f88c89f03b0c48a04197.png",
     "static/media/Captivating-Content.jpg": "/TechPolaris-Company-Website/static/media/Captivating-Content.d49dee77fe22cca33f1a.jpg",
     "static/media/WebSlide1.jpg": "/TechPolaris-Company-Website/static/media/WebSlide1.849597d194612844b091.jpg",
+    "static/media/Data-Analytics-Implementation.svg.png": "/TechPolaris-Company-Website/static/media/Data-Analytics-Implementation.svg.28b31cc0b1baf773b3da.png",
     "static/media/SEOslide2.jpg": "/TechPolaris-Company-Website/static/media/SEOslide2.279e31ca4a29e09dd438.jpg",
+    "static/media/Asset-1.png": "/TechPolaris-Company-Website/static/media/Asset-1.cfb4e0e63e6938885fd2.png",
     "static/media/Box_office_480x360.webp": "/TechPolaris-Company-Website/static/media/Box_office_480x360.8cf50713522c16b7f2f1.webp",
+    "static/media/data-analytic-service.png.webp": "/TechPolaris-Company-Website/static/media/data-analytic-service.png.4889f2ebee4f71a8c2e0.webp",
     "static/media/video_processing_480x360.webp": "/TechPolaris-Company-Website/static/media/video_processing_480x360.5cb3efe97265c6494711.webp",
+    "static/media/3rd-fold.svg.png": "/TechPolaris-Company-Website/static/media/3rd-fold.svg.6942e54c1874963aea19.png",
     "static/media/spotify_480x360.webp": "/TechPolaris-Company-Website/static/media/spotify_480x360.e226bac3f3d49ace6deb.webp",
     "static/media/Data_science_480x360.webp": "/TechPolaris-Company-Website/static/media/Data_science_480x360.d2b0e64290e2d3248c6d.webp",
     "static/media/fr.png_480x360.webp": "/TechPolaris-Company-Website/static/media/fr.png_480x360.295d9a89a04a8c2544ed.webp",
     "static/media/APIs_480x360.webp": "/TechPolaris-Company-Website/static/media/APIs_480x360.9004912cd02de9291520.webp",
     "index.html": "/TechPolaris-Company-Website/index.html",
-    "main.3a53e59a.css.map": "/TechPolaris-Company-Website/static/css/main.3a53e59a.css.map",
-    "main.f33ed226.js.map": "/TechPolaris-Company-Website/static/js/main.f33ed226.js.map"
+    "main.f82ea98d.css.map": "/TechPolaris-Company-Website/static/css/main.f82ea98d.css.map",
+    "main.5f338aaa.js.map": "/TechPolaris-Company-Website/static/js/main.5f338aaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a53e59a.css",
-    "static/js/main.f33ed226.js"
+    "static/css/main.f82ea98d.css",
+    "static/js/main.5f338aaa.js"
   ]
 }
