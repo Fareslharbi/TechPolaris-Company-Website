@@ -5,6 +5,7 @@
  
   background: #2961bd;
   color: white;
+  background: radial-gradient(rgb(117, 167, 205) , #2d6cc7, #2d6cc7); 
 }
 .DA_banner_container img{
   width: 30rem;
@@ -14,6 +15,9 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.DA_banner_info h1{
+  font-weight: bold;
 }
 
 .DA_banner_info button{
