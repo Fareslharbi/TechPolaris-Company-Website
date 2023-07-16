@@ -1,0 +1,28 @@
+.DA_third_banner_container{
+  height: 18rem;
+  display: flex;
+  background: linear-gradient(to right, #61c1aa, #62c1ad, #6ac1bb, #6fc0c1, #80bfde, #72c0c6, #74bfc9, #7cbfd6 );
+  color: white;
+  align-items: center;
+  gap: 10rem;
+
+}
+
+.DA_third_banner_container h1{
+  max-width: 40rem;
+  font-weight:bolder;
+  margin-left: 4rem;
+}
+
+.DA_third_banner_container button{
+  background: linear-gradient(to right, #4b87d4, #568fd3, #5b93d2, #6b9cd4, #7ba6d3, #7dacce, #73b3c2, #71b5bf, #68bbb5, #61c0ab);
+  border: 0;
+  border-radius: 0;
+  padding: 1rem 5rem;
+  color: white;
+  transition: 200ms ease-in all;
+}
+
+.DA_third_banner_container button:hover{
+  transform: scale(1.1);
+}

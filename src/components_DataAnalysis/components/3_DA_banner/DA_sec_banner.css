@@ -1,0 +1,33 @@
+.DA_sec_banner_container{
+  display: flex;
+  background: linear-gradient(to right, #80bfde , #7cbfd6, #74bfc9, #72c0c6, #6fc0c1, #6ac1bb, #62c1ad, #61c1aa);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+}
+
+.DA_sec_banner_container div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.DA_sec_banner_container div button{
+  width: 12rem;
+  padding: 1rem 0 ;
+  background-color: #3a75d4;
+  color: white;
+  transition: 200ms ease-in all;
+}
+
+.DA_sec_banner_container div button:hover{
+  background-color: #3a75d4;
+  transform: scale(1.1);
+}
+.DA_sec_banner_container div h1{
+  font-weight: bold;
+}
+
+.img-fluid img{
+  width: 40rem;
+}

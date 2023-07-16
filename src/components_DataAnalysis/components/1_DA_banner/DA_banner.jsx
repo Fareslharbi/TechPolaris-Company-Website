@@ -18,7 +18,7 @@ const DA_banner = () => {
           DataToBiz can help you bring a suitable data analytics mechanism to
           your business.
         </p>
-        <button className="btn btn-primary">Contact Us</button>
+        <button className="btn rounded">Contact Us</button>
       </div>
     </div>
   );

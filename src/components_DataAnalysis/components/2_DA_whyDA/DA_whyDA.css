@@ -9,21 +9,39 @@
 .DA_whyDA_container_info{
   display: flex;
   gap: 8rem;
+  padding-bottom: 2rem;
 }
 
 .DA_whyDA_container_info img{
   width: 30rem;
   margin: 5rem 0;
 }
-
+.DA_whyDA_container_info_intro{
+  max-width: 32rem;
+  color: #59647a;
+  padding-bottom: 3rem;
+  line-height: 2rem;
+}
 .DA_whyDA_container_info div{
   padding-top: 3rem;
 }
 
 .DA_whyDA_container_info div ul li{
   list-style:disc;
+  max-width: 30rem;
+  color: #4b4e51;
 }
 
 .DA_whyDA_container button{
-  padding: 0.8rem 4rem;
+  background: linear-gradient(to right, #4b87d4, #568fd3, #5b93d2, #6b9cd4, #7ba6d3, #7dacce, #73b3c2, #71b5bf, #68bbb5, #61c0ab);
+  border: 0;
+  border-radius: 0;
+  padding: 1rem 5rem;
+  color: white;
+  transition: 500ms ease all;
+}
+
+
+.DA_whyDA_container button:hover{
+  transform: scale(1.1);
 }

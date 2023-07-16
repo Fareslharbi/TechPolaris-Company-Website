@@ -8,7 +8,7 @@ const DA_whyDA = () => {
       <div className="DA_whyDA_container_info">
         <img src={img} alt="DA WhyDA" className="rounded-4" />
         <div>
-          <p>
+          <p className="DA_whyDA_container_info_intro">
             Data is one of the most precious assets for a business today. Now is
             the time when organizations depend on data analytics to come to the
             right decision, minimize risk, and maximize profits. This is the
