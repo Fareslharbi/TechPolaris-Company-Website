@@ -148,7 +148,7 @@ export const lang_change_footer = () => {
 };
 const Footer = () => {
   return (
-    <footer>
+    <footer className="founder_footer">
       <a href="/#" className="footer__logo" id="footer__logo">
         FARES
       </a>

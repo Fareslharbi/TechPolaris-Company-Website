@@ -4,4 +4,9 @@
   left: 29rem;
   bottom: 1.2rem;
   width: 10rem;
+  cursor: pointer;
+}
+
+.DA_Header_container{
+  z-index: 9999;
 }

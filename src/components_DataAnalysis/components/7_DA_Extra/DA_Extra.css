@@ -1,0 +1,19 @@
+.DA_Extra_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+  gap: 2rem;
+  background: linear-gradient(to right, #61c1aa, #62c1ad, #6ac1bb, #6fc0c1, #80bfde, #72c0c6, #74bfc9, #7cbfd6 );
+}
+
+.DA_Extra_container p{
+  max-width: 60rem;
+  text-align: center;
+  color: #4b4e51;
+}
+
+.DA_Extra_container .img-fluid img{
+  width: 30rem;
+}

@@ -1,11 +1,15 @@
 import "./DA_Header.css";
-
+import { useNavigate } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo-no-background.png";
 const StickyHeader = () => {
   const [scrollY, setScrollY] = useState(0);
   const offset = 100; // Set an offset value to trigger the transition
+  const navigate = useNavigate();
 
+  const navigateHome = () => {
+    navigate("/TechPolaris-Company-Website");
+  };
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
@@ -47,7 +51,7 @@ const StickyHeader = () => {
   return (
     <header style={headerStyle} className="DA_Header_container">
       <div className="img-fluid">
-        <img src={logo} alt="logo" />
+        <img onClick={navigateHome} src={logo} alt="logo" />
       </div>
       <ul style={listGroupStyle} className="DA_Header_list_group">
         <li>About Us</li>
